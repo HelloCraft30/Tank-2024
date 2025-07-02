@@ -539,8 +539,6 @@ void game::loop(SoundManager& sm) {
 
 					}
 				}
-				//only V-H movement
-				if (player_movement.x && player_movement.y) player_movement.y = 0;
 			}
 			if (event.type == sf::Event::KeyReleased) {
 				if (event.key.code == sf::Keyboard::W || event.key.code == sf::Keyboard::S) {
